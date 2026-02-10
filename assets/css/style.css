@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  height: 64px;
+  background-color: #121212;
+}
+
+/* Left section */
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 32px;
+}
+
+/* Navigation links */
+.navLinks {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks li {
+  margin-right: 20px;
+}
+
+.navLinks a {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.navLinks a:hover {
+  color: #ffffff;
+}
+
+/* Right section */
+.navRight {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 16px;
+  font-size: 14px;
+}
+
+.searchBar:focus {
+  outline: none;
+}
+
+/* Account button */
+.accountButton {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1db954;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.accountButton:hover {
+  opacity: 0.9;
+}
